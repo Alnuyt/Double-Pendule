@@ -1,8 +1,23 @@
 """
+Simulation du Double Pendule Couplé et Analyse de Sensibilité
 
-@author: Alexandre Nuyt et Axel Guerlus
+Auteur : Alexandre Nuyt et Axel Guerlus  
+
+Ce script simule la dynamique d'un double pendule couplé en utilisant une méthode numérique d'intégration de Runge-Kutta d'ordre 4.  
+
+### Fonctionnalités principales :
+- Définition des paramètres physiques du système (gravité, longueur et masse des pendules).
+- Résolution des équations du mouvement à l'aide de la méthode de Runge-Kutta.
+- Visualisation des oscillations des angles en fonction du temps.
+- Analyse des différences de trajectoires pour des conditions initiales légèrement différentes.
+- Animation de la dynamique du double pendule.
+- Calcul du spectre de Lyapunov pour évaluer la sensibilité aux conditions initiales.
+
+### Applications :
+Ce programme illustre le comportement chaotique du double pendule, un système dynamique non linéaire, et met en évidence l'effet papillon par le biais du coefficient de Lyapunov.
 
 """
+
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
