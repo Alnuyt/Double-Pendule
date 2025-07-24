@@ -1,16 +1,15 @@
-# Simulation du Double Pendule (Méthode des Différences Finies)
-Ce projet, réalisé en groupe dans le cadre du cours **LPHYS1303**, implémente une simulation numérique du **double pendule**, un système dynamique non linéaire connu pour son **comportement chaotique**. L'intégration des équations du mouvement est réalisée avec la **méthode Runge-Kutta d'ordre 4 (RK4)**.
+# Double Pendulum Simulation (Finite Difference Method)
+This project, carried out as a group assignment for the **LPHYS1303** course, implements a numerical simulation of the **double pendulum**, a nonlinear dynamic system known for its **chaotic behaviour**. The equations of motion are integrated using the **fourth-order Runge-Kutta method (RK4)**.
 ## Description
-Le double pendule est constitué de deux masses suspendues l'une à l'autre. Ses équations du mouvement sont obtenues à l'aide du **formalisme lagrangien** et présentent un **couplage non linéaire** rendant le système très sensible aux conditions initiales.
+The double pendulum consists of two masses suspended from each other. Its equations of motion are obtained using **Lagrangian formalism** and exhibit **non-linear coupling**, making the system very sensitive to initial conditions.
 
-L'objectif est :
-- De résoudre numériquement ces équations avec **Runge-Kutta 4**
-- D'analyser qualitativement différentes trajectoires
-- D'étudier la **sensibilité aux conditions initiales** et le **chaos** à travers l'exposant de Lyapunov
-## Utilisation 
-Exécutez le code pour lancer la simulation : [Pendule_Double.py](Pendule_Double.py)
-## Résultats
-- **Simulation des trajectoires :** analyse du mouvement des masses pour différentes conditions initiales.
-- **Mise en évidence du chaos :** visualisation de l'évolution des angles et vitesses.
-- **Analyse quantitative :** étude de l'exposant de **Lyapunov** pour caractériser la divergence des trajectoires.
-
+The objective is to:
+- Numerically solve these equations with **Runge-Kutta 4**
+- To qualitatively analyse different trajectories
+- To study **sensitivity to initial conditions** and **chaos** through the Lyapunov exponent
+## Use
+Run the code to launch the simulation: [Pendule_Double.py](Pendule_Double.py)
+## Results
+- **Simulation of trajectories:** analysis of the movement of masses for different initial conditions.
+- **Evidence of chaos:** visualisation of the evolution of angles and velocities.
+- **Quantitative analysis:** study of the **Lyapunov** exponent to characterise the divergence of trajectories.
